@@ -1,5 +1,5 @@
 # This is python code for COGS by jacob writen on 2023-07-07
-# This code checks the Graduate Student Employment Standards page for changes
+# This code copies the Graduate Student Employment Standards page into html and txt to allow for easier change tracking
 
 from urllib.request import urlopen
 import re
@@ -17,8 +17,6 @@ def print_hi(name, url, reference):
     # compare today's txt file to the reference file and print the differences
 
     print(articles_of_gses)
-
-    # # print if changes were found
 
 
 def read_site_data(url):
