@@ -1,4 +1,4 @@
-# This is python code for COGS by jacob writen on 2023-07-07
+# This is python code for COGS by jake writen on 2023-07-07
 # This code copies the Graduate Student Employment Standards page into html and txt to allow for easier change tracking
 
 from urllib.request import urlopen
